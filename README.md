@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Expense Tracker is a web application built with React.js for tracking personal expenses. It allows users to add, edit, delete expenses, and manage their wallet balance. Users can view summaries of their expenses through various charts and keep track of spending trends.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Wallet Balance Management**: Start with a default balance of ₹5000. Users can add funds to their wallet.
+- **Expense Management**: Add new expenses with details like title, amount, category, and date. Edit or delete existing expenses.
+- **Expense Summary**: View a summary of expenses categorized by type using pie charts.
+- **Expense Trends**: Analyze spending trends based on categories using bar charts.
+- **Responsive Design**: The application is designed to be usable on various devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js, HTML, CSS, JavaScript
+- **Libraries**:
+  - [Recharts](https://recharts.org/en-US) for charts
+  - [React-Modal](https://github.com/reactjs/react-modal) for modals
+  - [Notistack](https://iamhosseindhv.com/notistack) for notifications
+  - [React Icons](https://react-icons.github.io/react-icons/) for icons
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**:
 
-### `npm run build`
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Run the Application**:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   This will start the development server, and you can view the application in your browser at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Add Balance**: Click on the "Add Balance" button to increase your wallet balance.
+2. **Add Expense**: Use the "Add Expense" form to add new expenses. You can categorize your expenses and select the date.
+3. **Edit Expense**: Click the "Edit" button on an expense to modify its details.
+4. **Delete Expense**: Click the "Delete" button to remove an expense.
+5. **View Summary**: Check out the pie chart to see your total expenses categorized by type.
+6. **View Trends**: Use the bar chart to analyze spending trends based on categories.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Local Storage
 
-## Learn More
+- **Wallet Balance**: The wallet balance and list of expenses are stored in `localStorage` to persist data across page refreshes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# EXPENSE-TRACKER" 
+For any questions or suggestions, please contact [Your Name](mailto:your-email@example.com).
