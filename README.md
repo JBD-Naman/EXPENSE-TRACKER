@@ -17,8 +17,8 @@ Expense Tracker is a web application built with React.js for tracking personal e
 - **Frontend**: React.js, HTML, CSS, JavaScript
 - **Libraries**:
   - [Recharts](https://recharts.org/en-US) for charts
-  - [React-Modal](https://github.com/reactjs/react-modal) for modals
-  - [Notistack](https://iamhosseindhv.com/notistack) for notifications
+  - [React-Modal](https://reactcommunity.org/react-modal/) for modals
+  - [Notistack](https://notistack.com/getting-started) for notifications
   - [React Icons](https://react-icons.github.io/react-icons/) for icons
 
 ## Installation
@@ -26,8 +26,8 @@ Expense Tracker is a web application built with React.js for tracking personal e
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/MayurDange15/EXPENSE-TRACKER.git
+   cd EXPENSE-TRACKER
    ```
 
 2. **Install Dependencies**:
@@ -61,10 +61,6 @@ Expense Tracker is a web application built with React.js for tracking personal e
 
 If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or suggestions, please contact [Your Name](mailto:your-email@example.com).
+For any questions or suggestions, please contact [Mayur](mailto:mayurdange15081996@gmail.com).
